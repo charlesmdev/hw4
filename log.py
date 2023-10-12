@@ -1,13 +1,10 @@
 import time
-
 def timestamp(func):
-    print(time.ctime())
-    return func
+    def inner():
+        print(time.ctime())
+        return func
+    return inner
 
 
-@timestamp
-def hi():
-    print('hi')
 
-hi()
 
