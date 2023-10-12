@@ -4,12 +4,3 @@ def allcaps(func):
         result = func()
         return result.upper()
     return uppercase
-
-@allcaps
-def greet():
-    return "hello World!"
-
-def main():
-    print(greet())
-
-main()

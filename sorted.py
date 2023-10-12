@@ -7,7 +7,4 @@ def reverse_sort_dictionary(names):
 
 
 
-names = {'Tom': (5464512, 24), 'Mary': (1557896, 20), 'Sara': (5446987, 32)}
-new_list = reverse_sort_dictionary(names)
-for x in new_list:
-    print(x)        
+
