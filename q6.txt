@@ -1,0 +1,5 @@
+1.  The function call does not the variable 'a'.
+2.  The function call changes the variable 'b'.
+3.  For the first function call, python is passing a copy of the Integer value of 'a' therefor not
+    changing the original value. For the second function call, it is passing a reference to the 
+    dictionary of variable 'b', which makes changes to the original value.

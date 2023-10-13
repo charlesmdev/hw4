@@ -1,1 +1,6 @@
-We use Python inheritance for the following reasons: Code reusibility and 
+We use Python inheritance for the following reasons: Code reusibility and polymorphism. 
+Inheritance is useful for programmers to reuse common code from base classes. Common 
+code including methods and attributes. This avoid the use of rewriting repetitive code 
+and promotes organized and efficient codebases. The second use, polymorphism, which allows
+objects of different classes to be treated as objects of a common super class. This also 
+ties in with promoting organization through abstract classes and other ways too.
